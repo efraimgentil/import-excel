@@ -7,12 +7,24 @@
 	<name>import-excel</name>
 	<description>Example project using Apache POI library to read excel files</description>
 
+	
+	<properties>
+		<apache.poi.version>3.9</apache.poi.version>
+	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
-			<version>3.7</version>
+			<version>${apache.poi.version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${apache.poi.version}</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>

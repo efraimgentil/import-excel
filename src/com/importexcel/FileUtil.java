@@ -2,6 +2,12 @@ package com.importexcel;
 
 import java.io.File;
 
+/**
+ * 
+ * @author Efraim Gentil
+ * @email efraim.gentil@gmail.com
+ * @date Dec 11, 2013
+ */
 public class FileUtil {
 	
 	public static String getExtencion(File file){

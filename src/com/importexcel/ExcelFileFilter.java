@@ -8,6 +8,7 @@ import javax.swing.filechooser.FileFilter;
 /**
  * 
  * @author Efraim Gentil
+ * @email efraim.gentil@gmail.com
  * @date Dec 11, 2013
  */
 public class ExcelFileFilter extends FileFilter {
